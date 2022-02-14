@@ -11,18 +11,31 @@ namespace Operator_Exercise
             //Create a simple program named OperatorExercise in your repos folder 
             //to write out the results of addition, subtraction, multiplication, division operations. 
 
-           //write out the results in the following form: if a = 17 and b = 4, print the following:	
+            //write out the results in the following form: if a = 17 and b = 4, print the following:	
             //  --> 17/4 is 4 remainder 1
 
-            int a = 17;
-            int b = 4;
-            int quotient = a / b;
-            int remainder = a % b;
-            Console.WriteLine($"{a} / {b} is {quotient} remainder {remainder}");
+            //int a = 17;
+            //int b = 4;
+            //int quotient = a / b;
+            //int remainder = a % b;
+            //Console.WriteLine($"{a} / {b} is {quotient} remainder {remainder}");
+            //Console.WriteLine();
+            //Console.WriteLine();
 
-            //Exercise 2
-            AreaOfCircle(123.12);
-            
+
+            ////Exercise 2
+            //Console.Write("Please enter the radius: ");
+            //string input = Console.ReadLine();
+            //double radius = double.Parse(input);
+            //double area = AreaOfCircle(radius);
+            //Console.WriteLine(area);
+
+
+            var i = 3;
+            var j = 4;
+            var k = ++i * j++;
+            Console.WriteLine(k);
+
         }
 
         //Exercise 2
