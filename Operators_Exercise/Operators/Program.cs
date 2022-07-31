@@ -7,6 +7,7 @@ namespace Operator_Exercise
     {
         static void Main(string[] args)
         {
+
             // Exercise 1 
             //Create a simple program named OperatorExercise in your repos folder 
             //to write out the results of addition, subtraction, multiplication, division operations. 
@@ -14,28 +15,49 @@ namespace Operator_Exercise
             //write out the results in the following form: if a = 17 and b = 4, print the following:	
             //  --> 17/4 is 4 remainder 1
 
+
             //int a = 17;
             //int b = 4;
             //int quotient = a / b;
             //int remainder = a % b;
-            //Console.WriteLine($"{a} / {b} is {quotient} remainder {remainder}");
-            //Console.WriteLine();
-            //Console.WriteLine();
+            //if (a == 17 && b == 4)
+            //{
+            //    Console.WriteLine($"{a} / {b} is {quotient} remainder {remainder}");
+            //}
+            //else
+            //{
+            //    Console.WriteLine("something else....");
+            //}
 
+
+
+
+
+
+
+
+
+            //double x = 10;
+            //double y = 20;
+            //x += y;
+            //x -= y;
+            //x *= y;
+            //x /= y;
+            //x %= y;
+            //Console.WriteLine(x);
 
             ////Exercise 2
             //Console.Write("Please enter the radius: ");
-            //string input = Console.ReadLine();
-            //double radius = double.Parse(input);
+            //double radius = double.Parse(Console.ReadLine());
             //double area = AreaOfCircle(radius);
             //Console.WriteLine(area);
 
-
+            #region Thought Experiment
             var i = 3;
             var j = 4;
             var k = ++i * j++;
             Console.WriteLine(k);
-
+            #endregion
         }
 
         //Exercise 2
@@ -52,12 +74,14 @@ namespace Operator_Exercise
             Console.WriteLine();
 
             for (int i = 0; i < 10; i++)
-            {                    
+            {
                 Console.WriteLine(i);
                 Console.WriteLine();
-            }          
-           
-        } 
+            }
+
+        }
+
+
 
     }
 }
